@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="12dp"
+    app:cardElevation="12dp"
+    app:cardCornerRadius="5dp">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/eventName1"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/eventAddress1"
+                android:textSize="22sp"
+                android:layout_below="@+id/eventName1"
+                android:textStyle="normal"
+              />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/eventTime"
+                android:textSize="22sp"
+                android:layout_below="@+id/eventAddress1"
+                android:textStyle="normal"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/eventDate1"
+                android:textSize="22sp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/eventAddress1"
+                android:textStyle="normal"
+              />
+
+
+<ImageView
+    android:layout_width="64dp"
+    android:layout_height="64dp"
+    android:layout_below="@+id/eventDate1"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/ic_keyboard_arrow_up"
+    android:id="@+id/upVote"
+    />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/upVote"
+                android:layout_below="@+id/eventDate1"
+                android:layout_marginTop="40dp"
+                android:id="@+id/increement"
+                android:layout_marginLeft="15dp"/>
+
+
+        </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

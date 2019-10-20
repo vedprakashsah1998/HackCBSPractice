@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/atomic_age</item>
+        <item>@font/cagliostro</item>
+        <item>@font/delius_swash_caps</item>
+        <item>@font/dr_sugiyama</item>
+    </array>
+</resources>

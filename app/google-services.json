@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "751811528025",
+    "firebase_url": "https://hackcbspractice.firebaseio.com",
+    "project_id": "hackcbspractice",
+    "storage_bucket": "hackcbspractice.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751811528025:android:9085857ac54c798c017848",
+        "android_client_info": {
+          "package_name": "com.translatordata.vpman.hackcbspractice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "751811528025-sc47bmvvkok451bjk01ch3kd0a6319k4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.translatordata.vpman.hackcbspractice",
+            "certificate_hash": "a3be50c033727c6925f9f8581a2584a562ef0059"
+          }
+        },
+        {
+          "client_id": "751811528025-cl9kna419qiac6rps6rm0cj6gm4na71j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt8quGvEFyeMh3qHEra8AxQicmM4NLY1I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "751811528025-cl9kna419qiac6rps6rm0cj6gm4na71j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

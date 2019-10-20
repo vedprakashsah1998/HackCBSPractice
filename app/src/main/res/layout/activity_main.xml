@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:fontFamily="@font/delius_swash_caps"
+        android:text="Hello Passenger"
+        android:id="@+id/paseText"
+        android:textColor="#111111"
+        android:textSize="32sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:layout_marginTop="80dp"
+        android:layout_below="@+id/paseText"
+        android:background="@drawable/login_dashboard">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login With Us"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="24sp"
+            android:id="@+id/login_text"
+            android:padding="12dp"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/login_text"
+            android:layout_marginTop="30dp"
+            android:padding="16dp"
+            android:hint="Email-Id"
+            android:elevation="12dp"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:layout_centerHorizontal="true"
+            android:drawablePadding="12dp"
+            android:id="@+id/emailedit"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/edit_text_background"
+            />
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/emailedit"
+            android:layout_marginTop="30dp"
+            android:padding="16dp"
+            android:elevation="12dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/ic_lock"
+            android:drawablePadding="12dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/password"
+            android:background="@drawable/edit_text_background"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="Log In"
+            android:elevation="12dp"
+
+            android:id="@+id/login"
+            android:background="@drawable/edit_text_background"
+            android:layout_below="@+id/password"/>
+
+  <com.google.android.material.textview.MaterialTextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/login"
+    android:textSize="24sp"
+    android:fontFamily="sans-serif-condensed"
+    android:layout_marginTop="20dp"
+    android:textColor="#000"
+    android:id="@+id/orText"
+    android:text="Or"
+    />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/GoogleLogin"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/orText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_text_background"
+            android:drawableLeft="@drawable/ic_search"
+            android:drawablePadding="12dp"
+            android:paddingLeft="12dp"
+            android:elevation="12dp"
+            android:fontFamily="@font/cagliostro"
+            android:text="Register with Google" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/GoogleLogin"
+            android:text="Register with Us ?"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:id="@+id/registerText"
+            android:textColor="#032036"
+            android:fontFamily="sans-serif-medium"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

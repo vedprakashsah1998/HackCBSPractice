@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMap">
+
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map"
+        tools:context=".MapsActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="12dp"
+        android:background="@drawable/edit_search"
+        android:layout_centerHorizontal="true"
+        android:inputType="text"
+        android:labelFor="@+id/editText1"/>
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:drawableRight="@drawable/ic_search_black_24dp"
+        android:padding="12dp"
+        android:layout_marginTop="20dp"
+        android:imeOptions="actionSearch"
+        android:paddingRight="12dp"
+        android:layout_below="@+id/editText1"
+        android:background="@drawable/edit_search"
+        android:layout_centerHorizontal="true"
+        android:inputType="text"
+        android:labelFor="@+id/editText2"/>
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/eventBox"
+        android:background="@drawable/event_box"
+    />
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@drawable/ic_add_circle_outline_black_24dp"
+        android:id="@+id/addEvent"
+        android:padding="12dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:padding="12dp"
+        android:id="@+id/explore"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/ic_explore_black_24dp"/>
+
+</RelativeLayout>
+
+</RelativeLayout>
